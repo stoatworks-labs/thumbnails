@@ -22,7 +22,13 @@ public regardless of what the project repo is doing.
 
 ```
 video/<slug>.png        1280x720, the YouTube thumbnail for that project's video
+instagram/<cut>.jpg     1080x1920, the Instagram Reel cover (grid tile) for that cut
 ```
+
+Instagram covers follow the same rule as YouTube thumbnails — `cover_url` is fetched
+publicly at upload time and must be a JPEG — so covers for cuts of private-repo
+projects live here too. `<cut>` is the cut's key in the video toolkit's
+`social-captions.json`.
 
 `<slug>` is the project's key in the website's `src/data/projects.json`.
 

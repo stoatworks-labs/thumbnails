@@ -1,5 +1,10 @@
 # Stoatworks Labs — thumbnails
 
+> **AI-assisted project.** The images here, and the documents describing them,
+> were produced with [Claude](https://claude.com/claude-code) (Anthropic),
+> directed and reviewed by a human author. Each one is a real frame or render
+> from the project it belongs to, not an illustration of it.
+
 Public image hosting for the [Stoatworks Labs](https://stoatworks-labs.com) project
 videos. Nothing here is code.
 

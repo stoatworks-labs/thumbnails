@@ -15,7 +15,7 @@ use it; read it before touching anything.
    A thumbnail hosted in a *private* project repo 404s on `raw.githubusercontent.com`,
    YouTube silently falls back to an auto-frame, and the API still reports
    `thumbnail_set: true`. That silent failure is the entire reason this public repo
-   exists — roughly half the fleet is private.
+   exists — some of the fleet is still private.
 
 2. **There is no second chance.** The thumbnail URL is an upload-time parameter; fixing
    a bad one means re-uploading the video under a new video ID. Always

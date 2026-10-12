@@ -20,7 +20,7 @@ API still reports success (`thumbnail_set: true` only means it tried). There's n
 second chance: `youtubeThumbnailUrl` is an upload-time parameter, so the fix is a
 re-upload under a new video ID.
 
-Roughly half the fleet is private. So thumbnails live here instead, where the URL is
+Some of the fleet is still private. So thumbnails live here instead, where the URL is
 public regardless of what the project repo is doing.
 
 ## Layout

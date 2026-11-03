@@ -28,7 +28,13 @@ public regardless of what the project repo is doing.
 ```
 video/<slug>.png        1280x720, the YouTube thumbnail for that project's video
 instagram/<cut>.jpg     1080x1920, the Instagram Reel cover (grid tile) for that cut
+posts/<slug>-<feature>.jpg  1080x1350, an Instagram feed photo for one feature
 ```
+
+Feed photos come from the video toolkit's `feature_post.py`, one spec per feature in
+`projects/<slug>/posts/<feature>.json`. A scheduled photo may not be fetched until it
+posts, and Upload-Post's own staging is deleted after a day, so a post scheduled further
+ahead links its file here, by commit, as the covers are.
 
 Instagram covers follow the same rule as YouTube thumbnails (`cover_url` is fetched
 publicly at upload time and has to be a JPEG), so covers for cuts of private-repo
